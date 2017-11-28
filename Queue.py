@@ -7,7 +7,7 @@ class Queue(object):
         self._elements = []
         
     def enqueue(self, item):
-        self._elements.insert(0, item)
+        self._elements.append(item)
         
     def dequeue(self):
         try:
